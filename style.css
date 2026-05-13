@@ -1,0 +1,572 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    top: 0px;
+   
+}
+.rest{
+   height: 70px;
+   width: 70px;
+   margin: 0px;
+   margin-left: 10px;
+   float: left;
+}
+h4{
+    color: white;
+    margin-left: 35px;
+    font-size: 35px;
+    background-image: url(./download.jpg);
+    background-clip: text;
+    color: transparent;
+    float: left;
+     padding: 20px;
+}
+.box{
+    padding: 20px;
+    padding-top: 30px;
+}
+#Home{
+    background-image: url(./pastel.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:590px;
+    width:100%;
+}
+ .blue{
+    height: 575px;
+    width: 580px;
+    /* margin-left: 750px;
+    margin-top: 20px; */
+    position: absolute;
+    left:550px ;
+    top:90px ;
+}  
+h1{
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    position: relative;
+    left: 100px;
+    top: 150px;
+}
+p{
+    color: white;
+    position: relative;
+    top: 170px;
+    left:100px;
+    font-size: 20px;
+}
+.butt1{
+    color: green;
+    border-radius: 50px;
+    height: 35px;
+    width: 120px;
+    position: relative;
+    top: 210px;
+    left: 100px;
+    background-color:orange;
+    border: none;
+}
+.butt1:hover{
+    transform: rotateY(360deg);
+    transition: 2s;
+}
+.greeny{
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    left: 1070px;
+    top: 360px;
+}
+/* h3{
+    position: relative;
+    left: 1030px;
+    top: 65px;
+    color: whitesmoke;
+    font-size: 22px;
+} */
+ .num{
+    position: relative;
+    top:340px;
+    color: wheat;
+ }
+ .num1{
+    position: relative;
+    top:293px;
+    left: 219px;
+    color: burlywood;
+ }
+ .num2{
+    position: relative;
+    top:246px;
+    left: 389px;
+    color: burlywood;
+ }
+ .num3{
+    position: relative;
+    top:200px;
+    left: 510px;
+    color: wheat;
+ }
+ #LiveKitchen{
+    height: 630px;
+    width: 100%;
+    background-image: url(./pastel.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+ }
+ a{
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: 10px;
+ }
+ .box{
+    margin-top:10px;
+ }
+ h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 60px;
+    color: white;
+ }
+ .card1{
+    height: 330px;
+    width: 270px;
+    perspective: 1000px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+ }
+ .inner{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.9s;
+ }
+ .card1:hover .inner{
+    transform: rotateX(180deg);
+ }
+ .front,.back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+ }
+ .front{
+    background-color: bisque;
+    background-image: url(./curry.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    color: black;
+    border-radius: 10px 0px 10px 0px;
+ }
+ .back{
+    background-color: bisque;
+    color: black;
+    transform: rotateX(180deg);
+    background-image: url(./rice.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    border-radius: 0px 10px 0px 10px;
+ }
+ h5{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 90px;
+    margin-left: 40px;
+ }
+ .see1{
+    position: relative;
+    top: 220px;
+    left: 20px;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .see3{
+    margin-top: 50px;
+ }
+ .see2{
+    position: relative;
+    top: 200px;
+    left: 8px;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .card2{
+    height:330px;
+    width: 270px;
+    perspective: 1000px;
+    position: relative;
+    left: 320px;
+    bottom: 130px;
+    
+ }
+ .down{
+    height:100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.9s;
+ }
+ .card2:hover .down{
+    transform: rotateX(180deg);
+ }
+ .fview,.bview{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+ }
+ .fview{
+    background-color:burlywood;
+    color: brown;
+    background-image: url(./white.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    border-radius: 0px 10px 0px 10px;
+ }
+ .bview{
+    background-color: burlywood;
+    color: darkred;
+    transform: rotateX(180deg);
+    background-image: url(./np.webp);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    border-radius:10px 0px 10px 0px ;
+ }
+ .see4{
+   color: black;
+   position: relative;
+   bottom: 45px;
+ }
+ .see5{
+   color: brown;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: relative;
+   left: 20px;
+   top: 200px;
+ }
+ .see6{
+   color: black;
+   position: relative;
+   bottom:25px;
+ }
+ .see7{
+   color: brown;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: relative;
+   top: 210px;
+   left: 20px;
+ }
+ .card3{
+   height:330px;
+   width:270px;
+   perspective: 1000px;
+    position: relative;
+    left: 640px;
+    bottom: 630px;
+ }
+ .upper{
+    height:100%;
+    width: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 0.9s;
+ }
+ .card3:hover .upper{
+    transform: rotateX(180deg);
+ }
+ .look,.hide{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+ }
+ .look{
+    background-color:bisque;
+    color: brown;
+    background-image: url(./masala.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    border-radius: 10px 0px 10px 0px;
+ }
+ .hide{
+    background-color: bisque;
+    color: darkred;
+    transform: rotateX(180deg);
+    background-image: url(./puri.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    border-radius:0px 10px 0px 10px ;
+ }
+ .see8{
+   color: black;
+   position: relative;
+   bottom: 25px;
+ }
+ .see9{
+   color: brown;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: relative;
+   top: 210px;
+   left:10px;
+ }
+.see10{
+   color: black;
+   position: relative;
+   bottom:10px;
+}
+.see11{
+   color: brown;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   position: relative;
+   position: relative;
+   top: 210px;
+   left: 20px;
+}
+h6{
+   position: relative;
+   left: 1000px;
+   bottom: 640px;
+   font-size: 20px;
+}
+.card4{
+   height: 330px;
+   width: 270px;
+   perspective: 1000px;
+   position: relative;
+   left: 970px;
+   bottom: 800px;
+}
+.lower{
+   height: 100%;
+   width: 100%;
+   position: relative;
+    transform-style: preserve-3d;
+    transition: 0.9s;
+   
+}
+.card4:hover .lower{
+   transform: rotateX(180deg);
+}
+.main, .side{
+   height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.main{
+    background-color:bisque;
+    color: brown;
+    background-image: url(./porotta.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    border-radius: 10px 0px 10px 0px;
+ }
+.side{
+    background-color: bisque;
+    color: darkred;
+    transform: rotateX(180deg);
+    background-image: url(./biri.png);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    border-radius:0px 10px 0px 10px ;
+ }
+ .see12{
+   color: black;
+   position: relative;
+   top: 10px;
+ }
+ .see13{
+   color: brown;
+   position: relative;
+   left: 20px;
+   top: 200px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .see14{
+   color: black;
+   position: relative;
+   top: 0px;
+ }
+ .see15{
+   color: brown;
+   position: relative;
+   left: 20px;
+   top: 230px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ #PartyHall{
+   height: 650px;
+   width: 100%;
+   background-image: url(./pastel.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   margin-top: 30px;
+   display: flex;
+   justify-content:space-evenly;
+ }
+ .name1{
+   height: 300px;
+   width: 300px;
+   margin-top: 20px;
+   margin-left: 30px;
+   border-radius: 10px;
+
+ }
+ .rose{
+   position: relative;
+   top: 20px;
+   left: 20px;
+   font-size: 33px;
+   color: greenyellow;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .sun{
+   color: white;
+   position:unset;
+   margin-left: 30px;
+   margin-top: 40px;
+   background-image: url(https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyZ2pndjh5Nmd1b3p0MnlrMjRoYWpqNjJ1ZWFyY2VrdGwyZW90cjR5YSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/PF6e8Xq8dVnVX1BGLS/giphy.gif);
+   background-clip: text;
+   color: transparent;
+ }
+ .butt2 , .butt3 , .butt4{
+   height: 50px;
+   width: 200px;
+   position: relative;
+   top: 50px;
+   left: 45px;
+   color: black;
+   background-color: skyblue;
+   border: none;
+   border-radius: 14px;
+   cursor: pointer;
+   
+ }
+ .butt2:hover{
+   background-color: coral;
+ }
+ .butt3:hover{
+   background-color: crimson;
+ }
+ .butt4:hover{
+   background-color: seagreen;
+ }
+ #MoonlightBuffert{
+   height: 700px;
+   width: 100%;
+   background-image: url(./pastel.jpg);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   margin-top: 30px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .cute{
+    animation:slide 20s linear infinite;
+    height:450px;
+    width:750px;
+    
+ }
+ @keyframes slide {
+   0%{
+      background-image: url(./d1.avif);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+   }
+   30%{
+      background-image: url(./d2.jpg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+
+   }
+   60%{
+      background-image: url(./d3.webp);
+       background-size: 100% 100%;
+      background-repeat: no-repeat;
+
+   }
+   80%{
+      background-image: url(./d4.jpg);
+       background-size: 100% 100%;
+      background-repeat: no-repeat;
+   }
+   100%{
+      background-image: url(./d5.webp);
+       background-size: 100% 100%;
+      background-repeat: no-repeat;
+   }
+ }
+ .cherry{
+  position: unset;
+  margin-bottom: 10px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+ }
+ .cherry2{
+   color: black;
+   position: unset;
+   margin-bottom: 40px;
+   margin-left: 200px;
+ }
+ footer{
+   height: 150px;
+   width: 100%;
+   background-color: plum;
+   display: flex;
+   margin-top: 5px;
+ }
+ footer img{
+   height: 100px;
+   width: 100px;
+   /* margin-top: 70px; */
+   margin-left: 50px;
+ }
+ footer h2{
+   margin-top: 40px;
+   margin-left: 10px;
+ }
+  footer h4{
+   color: black;
+   font-size: 25px;
+ }
+footer h6{
+   color: black;
+   position: unset;
+   margin-top: 20px;
+   margin-left: 150px;
+} 
+footer i{
+   font-size: 30px;
+   margin-left:20px;
+   margin-top:10px;
+}
+footer p{
+   position: unset;
+   margin-top:10px;
+   margin-left:10px;
+   color: black;
+}
+.flo{
+   display: flex;
+}
+.foot{
+   margin-left:400px;
+}
+.rev{
+  /* position: unset; */
+}
+
